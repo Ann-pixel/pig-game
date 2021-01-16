@@ -178,4 +178,9 @@ main {
   html {
     font-size: 40%;
   }
+  @media screen and (max-width: 500px) {
+    html {
+      font-size: 30%;
+    }
+  }
 }
