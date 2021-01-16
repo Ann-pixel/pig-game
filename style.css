@@ -168,3 +168,14 @@ main {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
